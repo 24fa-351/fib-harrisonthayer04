@@ -84,7 +84,7 @@ int main(int argc, char *argv[]) {
       printf("%llu\n", computedFibNumber);
    }
    if(strcmp(rORi,"r") == 0){
-      computedFibNumber = fibRecursively(N);
+      computedFibNumber = fibRecursively(N-1);
       printf("%llu\n", computedFibNumber);
    }
    return computedFibNumber;
